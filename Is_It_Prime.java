@@ -26,12 +26,10 @@ class HelloWorld {
 
         }
         if (!isprime) {
-            System.out.println("The number " + innum + "is prime."); // Output user input
+            System.out.println("The number " + innum + " is prime."); // Output user input
         } else {
-            System.out.println("The number " + innum + "is NOT prime.");
+            System.out.println("The number " + innum + " is NOT prime.");
         }
-
-
 
     }
 }
