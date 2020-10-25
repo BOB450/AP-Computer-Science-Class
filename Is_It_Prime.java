@@ -12,7 +12,7 @@ class HelloWorld {
         System.out.println(innum);
 
         if (innum == 1) {
-            System.out.println("The number " + innum + "is NOT prime.");
+            System.out.println("The number " + innum + " is NOT prime.");
             return;
         }
         for (int i = 2; i <= innum / 2; ++i) {
@@ -30,6 +30,7 @@ class HelloWorld {
         } else {
             System.out.println("The number " + innum + " is NOT prime.");
         }
+        main(null);
 
     }
 }
